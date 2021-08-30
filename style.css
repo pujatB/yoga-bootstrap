@@ -1,0 +1,37 @@
+.title{
+    font-family: "Dancing Script";
+    font-size: 2em;
+
+}
+
+.navbar-nav a:hover {
+    color: blue ;
+} 
+
+.cover{
+    background-image: url("./silhouette-young-woman-practicing-yoga-on-the-beach-at-sunset_u-l-pn0ll90.jpeg");
+    background-size:inherit;
+    height:300px;
+    opacity: .75;
+}
+.cover-text{
+    width:500px;
+    height:250px;
+    background-color: rgb(204, 163, 170,.3);
+}
+
+@media only screen and (max-width: 500px) {
+    
+.options{
+        flex-direction: column;
+    }
+}
+.option-image{
+    width: 400px;
+    height:300px;
+    opacity: .75;
+}
+
+.option-image:hover{
+    opacity:1;
+}
